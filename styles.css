@@ -1,0 +1,37 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#fade{
+  color: white;
+/*  position: fixed;*/
+}
+
+
+
+h1 {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+h1 span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Secondly, Hide the second element so that only the first element is on the square at the start of the page */
+  opacity: 0;
+}
+
+
+
+h1 span {
+  transition: all .5s ease-in-out;
+}
